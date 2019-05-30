@@ -4,38 +4,108 @@ var dropdowndata = {
             "name": "Everywhere",
             "code": ""
 }, {
-            "name": "Afghanistan",
-            "code": "Q889"
+            "name": "Austria",
+            "code": "Q40"
+}, {
+            "name": "Australia",
+            "code": "Q408"
+}, {
+            "name": "Belgium",
+            "code": "Q31"
+}, {
+            "name": "Brazil",
+            "code": "Q155"
+}, {
+            "name": "Bulgaria",
+            "code": "Q219"
+}, {
+            "name": "Canada",
+            "code": "Q16"
+}, {
+            "name": "China",
+            "code": "Q148"
+}, {
+            "name": "People's Republic of China",
+            "code": "Q148"
 }, {
             "name": "Finland",
             "code": "Q33"
 }, {
-            "name": "kali",
-            "code": "Q1749"
-},
-        {
-            "name": "Ireland",
-            "code": "Q27"
-},
-
-        {
-            "name": "Ukraine",
-            "code": "Q212"
-        }
-        , {
-            "name": "Moldova",
-            "code": "Q217"
-        }
-
-         , {
-            "name": "Soviets",
-            "code": "Q15180"
-        }
-, {
+            "name": "France",
+            "code": "Q142"
+}, {
+            "name": "Germany",
+            "code": "Q183"
+}, {
             "name": "Greece",
             "code": "Q41"
-        }
-, {
+}, {
+            "name": "Hungary",
+            "code": "Q28"
+}, {
+            "name": "India",
+            "code": "Q668"
+}, {
+            "name": "Ireland",
+            "code": "Q27"
+}, {
+            "name": "Italy",
+            "code": "Q38"
+}, {
+            "name": "Japan",
+            "code": "Q17"
+}, {
+            "name": "Netherlands",
+            "code": "Q55"
+}, {
+            "name": "Portugal",
+            "code": "Q45"
+}, {
+            "name": "Poland",
+            "code": "Q36"
+}, {
+            "name": "Romania",
+            "code": "Q218"
+}, {
+            "name": "Russia",
+            "code": "Q159"
+}, {
+            "name": "Russian Empire",
+            "code": "Q34266"
+}, {
+            "name": "South Africa",
+            "code": "Q258"
+}, {
+            "name": "South Korea",
+            "code": "Q884"
+}, {
+            "name": "Soviets",
+            "code": "Q15180"
+}, {
+            "name": "Spain",
+            "code": "Q29"
+}, {
+            "name": "Sweden",
+            "code": "Q34"
+}, {
+            "name": "Switzerland",
+            "code": "Q39"
+}, {
+            "name": "Turkey",
+            "code": "Q43"
+}, {
+            "name": "Ukraine",
+            "code": "Q212"
+}, {
+            "name": "United Kingdom",
+            "code": "Q145"
+}, {
+            "name": "United States",
+            "code": "Q30"
+}, {
+            "name": "Afghanistan",
+            "code": "Q889"
+}, {
             "name": "Algeria",
             "code": "Q262"
 }, {
@@ -50,12 +120,6 @@ var dropdowndata = {
 }, {
             "name": "Artsakh",
             "code": "Q244165"
-}, {
-            "name": "Austria",
-            "code": "Q40"
-}, {
-            "name": "Australia",
-            "code": "Q408"
 }, {
             "name": "Bahamas",
             "code": "Q778"
@@ -72,9 +136,6 @@ var dropdowndata = {
             "name": "Belize",
             "code": "Q242"
 }, {
-            "name": "Belgium",
-            "code": "Q31"
-}, {
             "name": "Benin",
             "code": "Q962"
 }, {
@@ -87,14 +148,8 @@ var dropdowndata = {
             "name": "Botswana",
             "code": "Q963"
 }, {
-            "name": "Brazil",
-            "code": "Q155"
-}, {
             "name": "Brunei",
             "code": "Q921"
-}, {
-            "name": "Bulgaria",
-            "code": "Q219"
 }, {
             "name": "Burkina Faso",
             "code": "Q965"
@@ -108,9 +163,6 @@ var dropdowndata = {
             "name": "Cameroon",
             "code": "Q1009"
 }, {
-            "name": "Canada",
-            "code": "Q16"
-}, {
             "name": "Cape Verde",
             "code": "Q1011"
 }, {
@@ -122,9 +174,6 @@ var dropdowndata = {
 }, {
             "name": "Chile",
             "code": "Q298"
-}, {
-            "name": "China",
-            "code": "Q148"
 }, {
             "name": "Colombia",
             "code": "Q739"
@@ -183,17 +232,11 @@ var dropdowndata = {
             "name": "Fiji",
             "code": "Q712"
 }, {
-            "name": "France",
-            "code": "Q142"
-}, {
             "name": "Gabon",
             "code": "Q1000"
 }, {
             "name": "Gambia",
             "code": "Q1005"
-}, {
-            "name": "Germany",
-            "code": "Q183"
 }, {
             "name": "Ghana",
             "code": "Q117"
@@ -219,12 +262,6 @@ var dropdowndata = {
             "name": "Honduras",
             "code": "Q783"
 }, {
-            "name": "Hungary",
-            "code": "Q28"
-}, {
-            "name": "India",
-            "code": "Q668"
-}, {
             "name": "Indonesia",
             "code": "Q252"
 }, {
@@ -237,20 +274,17 @@ var dropdowndata = {
             "name": "Israel",
             "code": "Q801"
 }, {
-            "name": "Italy",
-            "code": "Q38"
-}, {
             "name": "Ivory Coast",
             "code": "Q1008"
 }, {
             "name": "Jamaica",
             "code": "Q766"
 }, {
-            "name": "Japan",
-            "code": "Q17"
-}, {
             "name": "Jordan",
             "code": "Q810"
+}, {
+            "name": "Kaliningrad",
+            "code": "Q1749"
 }, {
             "name": "Kazakhstan",
             "code": "Q232"
@@ -312,6 +346,9 @@ var dropdowndata = {
             "name": "Mexico",
             "code": "Q96"
 }, {
+            "name": "Moldova",
+            "code": "Q217"
+        }, {
             "name": "Mongolia",
             "code": "Q711"
 }, {
@@ -335,9 +372,6 @@ var dropdowndata = {
 }, {
             "name": "Nepal",
             "code": "Q837"
-}, {
-            "name": "Netherlands",
-            "code": "Q55"
 }, {
             "name": "New Zealand",
             "code": "Q664"
@@ -378,35 +412,17 @@ var dropdowndata = {
             "name": "Paraguay",
             "code": "Q733"
 }, {
-            "name": "People's Republic of China",
-            "code": "Q148"
-}, {
             "name": "Peru",
             "code": "Q419"
 }, {
             "name": "Philippines",
             "code": "Q928"
 }, {
-            "name": "Portugal",
-            "code": "Q45"
-}, {
-            "name": "Poland",
-            "code": "Q36"
-}, {
             "name": "Qatar",
             "code": "Q846"
 }, {
             "name": "Republic of the Congo",
             "code": "Q971"
-}, {
-            "name": "Romania",
-            "code": "Q218"
-}, {
-            "name": "Russia",
-            "code": "Q159"
-}, {
-            "name": "Russian Empire",
-            "code": "Q34266"
 }, {
             "name": "Rwanda",
             "code": "Q1037"
@@ -447,17 +463,8 @@ var dropdowndata = {
             "name": "Somalia",
             "code": "Q1045"
 }, {
-            "name": "South Africa",
-            "code": "Q258"
-}, {
-            "name": "South Korea",
-            "code": "Q884"
-}, {
             "name": "South Sudan",
             "code": "Q958"
-}, {
-            "name": "Spain",
-            "code": "Q29"
 }, {
             "name": "Sri Lanka",
             "code": "Q854"
@@ -467,12 +474,6 @@ var dropdowndata = {
 }, {
             "name": "Sudan",
             "code": "Q1049"
-}, {
-            "name": "Sweden",
-            "code": "Q34"
-}, {
-            "name": "Switzerland",
-            "code": "Q39"
 }, {
             "name": "Syria",
             "code": "Q858"
@@ -498,9 +499,6 @@ var dropdowndata = {
             "name": "Tunisia",
             "code": "Q948"
 }, {
-            "name": "Turkey",
-            "code": "Q43"
-}, {
             "name": "Turkmenistan",
             "code": "Q874"
 }, {
@@ -512,12 +510,6 @@ var dropdowndata = {
 }, {
             "name": "United Arab Emirates",
             "code": "Q878"
-}, {
-            "name": "United Kingdom",
-            "code": "Q145"
-}, {
-            "name": "United States",
-            "code": "Q30"
 }, {
             "name": "Uruguay",
             "code": "Q77"
