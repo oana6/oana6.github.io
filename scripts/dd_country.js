@@ -1,0 +1,546 @@
+var dropdowndata = {
+    "countries": [
+        {
+            "name": "Everywhere",
+            "code": ""
+}, {
+            "name": "Afghanistan",
+            "code": "Q889"
+}, {
+            "name": "Finland",
+            "code": "Q33"
+}, {
+            "name": "kali",
+            "code": "Q1749"
+},
+        {
+            "name": "Ireland",
+            "code": "Q27"
+},
+
+        {
+            "name": "Ukraine",
+            "code": "Q212"
+        }
+        , {
+            "name": "Moldova",
+            "code": "Q217"
+        }
+
+         , {
+            "name": "Soviets",
+            "code": "Q15180"
+        }
+, {
+            "name": "Greece",
+            "code": "Q41"
+        }
+, {
+            "name": "Algeria",
+            "code": "Q262"
+}, {
+            "name": "Angola",
+            "code": "Q916"
+}, {
+            "name": "Antigua and Barbuda",
+            "code": "Q781"
+}, {
+            "name": "Argentina",
+            "code": "Q414"
+}, {
+            "name": "Artsakh",
+            "code": "Q244165"
+}, {
+            "name": "Austria",
+            "code": "Q40"
+}, {
+            "name": "Australia",
+            "code": "Q408"
+}, {
+            "name": "Bahamas",
+            "code": "Q778"
+}, {
+            "name": "Bahrain",
+            "code": "Q398"
+}, {
+            "name": "Bangladesh",
+            "code": "Q902"
+}, {
+            "name": "Barbados",
+            "code": "Q244"
+}, {
+            "name": "Belize",
+            "code": "Q242"
+}, {
+            "name": "Belgium",
+            "code": "Q31"
+}, {
+            "name": "Benin",
+            "code": "Q962"
+}, {
+            "name": "Bhutan",
+            "code": "Q917"
+}, {
+            "name": "Bolivia",
+            "code": "Q750"
+}, {
+            "name": "Botswana",
+            "code": "Q963"
+}, {
+            "name": "Brazil",
+            "code": "Q155"
+}, {
+            "name": "Brunei",
+            "code": "Q921"
+}, {
+            "name": "Bulgaria",
+            "code": "Q219"
+}, {
+            "name": "Burkina Faso",
+            "code": "Q965"
+}, {
+            "name": "Burundi",
+            "code": "Q967"
+}, {
+            "name": "Cambodia",
+            "code": "Q424"
+}, {
+            "name": "Cameroon",
+            "code": "Q1009"
+}, {
+            "name": "Canada",
+            "code": "Q16"
+}, {
+            "name": "Cape Verde",
+            "code": "Q1011"
+}, {
+            "name": "Central African Republic",
+            "code": "Q929"
+}, {
+            "name": "Chad",
+            "code": "Q657"
+}, {
+            "name": "Chile",
+            "code": "Q298"
+}, {
+            "name": "China",
+            "code": "Q148"
+}, {
+            "name": "Colombia",
+            "code": "Q739"
+}, {
+            "name": "Comoros",
+            "code": "Q970"
+}, {
+            "name": "Cook Islands",
+            "code": "Q26988"
+}, {
+            "name": "Costa Rica",
+            "code": "Q800"
+}, {
+            "name": "Croatia",
+            "code": "Q224"
+}, {
+            "name": "Cuba",
+            "code": "Q241"
+}, {
+            "name": "Czech Republic",
+            "code": "Q213"
+}, {
+            "name": "Democratic Republic of the Congo",
+            "code": "Q974"
+}, {
+            "name": "Djibouti",
+            "code": "Q977"
+}, {
+            "name": "Dominica",
+            "code": "Q784"
+}, {
+            "name": "East Timor",
+            "code": "Q574"
+}, {
+            "name": "Ecuador",
+            "code": "Q736"
+}, {
+            "name": "Egypt",
+            "code": "Q79"
+}, {
+            "name": "El Salvador",
+            "code": "Q792"
+}, {
+            "name": "Eritrea",
+            "code": "Q986"
+}, {
+            "name": "Eswatini",
+            "code": "Q1050"
+}, {
+            "name": "Ethiopia",
+            "code": "Q115"
+}, {
+            "name": "Federated States of Micronesia",
+            "code": "Q702"
+}, {
+            "name": "Fiji",
+            "code": "Q712"
+}, {
+            "name": "France",
+            "code": "Q142"
+}, {
+            "name": "Gabon",
+            "code": "Q1000"
+}, {
+            "name": "Gambia",
+            "code": "Q1005"
+}, {
+            "name": "Germany",
+            "code": "Q183"
+}, {
+            "name": "Ghana",
+            "code": "Q117"
+}, {
+            "name": "Grenada",
+            "code": "Q769"
+}, {
+            "name": "Guatemala",
+            "code": "Q774"
+}, {
+            "name": "Guinea",
+            "code": "Q1006"
+}, {
+            "name": "Guinea-Bissau",
+            "code": "Q1007"
+}, {
+            "name": "Guyana",
+            "code": "Q734"
+}, {
+            "name": "Haiti",
+            "code": "Q790"
+}, {
+            "name": "Honduras",
+            "code": "Q783"
+}, {
+            "name": "Hungary",
+            "code": "Q28"
+}, {
+            "name": "India",
+            "code": "Q668"
+}, {
+            "name": "Indonesia",
+            "code": "Q252"
+}, {
+            "name": "Iran",
+            "code": "Q794"
+}, {
+            "name": "Iraq",
+            "code": "Q796"
+}, {
+            "name": "Israel",
+            "code": "Q801"
+}, {
+            "name": "Italy",
+            "code": "Q38"
+}, {
+            "name": "Ivory Coast",
+            "code": "Q1008"
+}, {
+            "name": "Jamaica",
+            "code": "Q766"
+}, {
+            "name": "Japan",
+            "code": "Q17"
+}, {
+            "name": "Jordan",
+            "code": "Q810"
+}, {
+            "name": "Kazakhstan",
+            "code": "Q232"
+}, {
+            "name": "Kenya",
+            "code": "Q114"
+}, {
+            "name": "Kingdom of the Netherlands",
+            "code": "Q29999"
+}, {
+            "name": "Kiribati",
+            "code": "Q710"
+}, {
+            "name": "Kyrgyzstan",
+            "code": "Q813"
+}, {
+            "name": "Laos",
+            "code": "Q819"
+}, {
+            "name": "Latvia",
+            "code": "Q211"
+}, {
+            "name": "Lebanon",
+            "code": "Q822"
+}, {
+            "name": "Lesotho",
+            "code": "Q1013"
+}, {
+            "name": "Liberia",
+            "code": "Q1014"
+}, {
+            "name": "Libya",
+            "code": "Q1016"
+}, {
+            "name": "Madagascar",
+            "code": "Q1019"
+}, {
+            "name": "Malawi",
+            "code": "Q1020"
+}, {
+            "name": "Malaysia",
+            "code": "Q833"
+}, {
+            "name": "Maldives",
+            "code": "Q826"
+}, {
+            "name": "Mali",
+            "code": "Q912"
+}, {
+            "name": "Marshall Islands",
+            "code": "Q709"
+}, {
+            "name": "Mauritania",
+            "code": "Q1025"
+}, {
+            "name": "Mauritius",
+            "code": "Q1027"
+}, {
+            "name": "Mexico",
+            "code": "Q96"
+}, {
+            "name": "Mongolia",
+            "code": "Q711"
+}, {
+            "name": "Montenegro",
+            "code": "Q236"
+}, {
+            "name": "Morocco",
+            "code": "Q1028"
+}, {
+            "name": "Mozambique",
+            "code": "Q1029"
+}, {
+            "name": "Myanmar",
+            "code": "Q836"
+}, {
+            "name": "Namibia",
+            "code": "Q1030"
+}, {
+            "name": "Nauru",
+            "code": "Q697"
+}, {
+            "name": "Nepal",
+            "code": "Q837"
+}, {
+            "name": "Netherlands",
+            "code": "Q55"
+}, {
+            "name": "New Zealand",
+            "code": "Q664"
+}, {
+            "name": "Nicaragua",
+            "code": "Q811"
+}, {
+            "name": "Niger",
+            "code": "Q1032"
+}, {
+            "name": "Nigeria",
+            "code": "Q1033"
+}, {
+            "name": "Niue",
+            "code": "Q34020"
+}, {
+            "name": "North Korea",
+            "code": "Q423"
+}, {
+            "name": "Northern Mariana Islands",
+            "code": "Q16644"
+}, {
+            "name": "Norway",
+            "code": "Q20"
+}, {
+            "name": "Oman",
+            "code": "Q842"
+}, {
+            "name": "Pakistan",
+            "code": "Q843"
+}, {
+            "name": "Palau",
+            "code": "Q695"
+}, {
+            "name": "Papua New Guinea",
+            "code": "Q691"
+}, {
+            "name": "Paraguay",
+            "code": "Q733"
+}, {
+            "name": "People's Republic of China",
+            "code": "Q148"
+}, {
+            "name": "Peru",
+            "code": "Q419"
+}, {
+            "name": "Philippines",
+            "code": "Q928"
+}, {
+            "name": "Portugal",
+            "code": "Q45"
+}, {
+            "name": "Poland",
+            "code": "Q36"
+}, {
+            "name": "Qatar",
+            "code": "Q846"
+}, {
+            "name": "Republic of the Congo",
+            "code": "Q971"
+}, {
+            "name": "Romania",
+            "code": "Q218"
+}, {
+            "name": "Russia",
+            "code": "Q159"
+}, {
+            "name": "Russian Empire",
+            "code": "Q34266"
+}, {
+            "name": "Rwanda",
+            "code": "Q1037"
+}, {
+            "name": "Sahrawi Arab Democratic Republic",
+            "code": "Q40362"
+}, {
+            "name": "Saint Kitts and Nevis",
+            "code": "Q763"
+}, {
+            "name": "Saint Lucia",
+            "code": "Q760"
+}, {
+            "name": "Saint Vincent and the Grenadines",
+            "code": "Q757"
+}, {
+            "name": "Samoa",
+            "code": "Q683"
+}, {
+            "name": "Saudi Arabia",
+            "code": "Q851"
+}, {
+            "name": "Senegal",
+            "code": "Q1041"
+}, {
+            "name": "Seychelles",
+            "code": "Q1042"
+}, {
+            "name": "Sierra Leone",
+            "code": "Q1044"
+}, {
+            "name": "Singapore",
+            "code": "Q334"
+}, {
+            "name": "Solomon Islands",
+            "code": "Q685"
+}, {
+            "name": "Somalia",
+            "code": "Q1045"
+}, {
+            "name": "South Africa",
+            "code": "Q258"
+}, {
+            "name": "South Korea",
+            "code": "Q884"
+}, {
+            "name": "South Sudan",
+            "code": "Q958"
+}, {
+            "name": "Spain",
+            "code": "Q29"
+}, {
+            "name": "Sri Lanka",
+            "code": "Q854"
+}, {
+            "name": "State of Palestine",
+            "code": "Q219060"
+}, {
+            "name": "Sudan",
+            "code": "Q1049"
+}, {
+            "name": "Sweden",
+            "code": "Q34"
+}, {
+            "name": "Switzerland",
+            "code": "Q39"
+}, {
+            "name": "Syria",
+            "code": "Q858"
+}, {
+            "name": "São Tomé and Príncipe",
+            "code": "Q1039"
+}, {
+            "name": "Tajikistan",
+            "code": "Q863"
+}, {
+            "name": "Tanzania",
+            "code": "Q924"
+}, {
+            "name": "Thailand",
+            "code": "Q869"
+}, {
+            "name": "Togo",
+            "code": "Q945"
+}, {
+            "name": "Trinidad and Tobago",
+            "code": "Q754"
+}, {
+            "name": "Tunisia",
+            "code": "Q948"
+}, {
+            "name": "Turkey",
+            "code": "Q43"
+}, {
+            "name": "Turkmenistan",
+            "code": "Q874"
+}, {
+            "name": "Tuvalu",
+            "code": "Q672"
+}, {
+            "name": "Uganda",
+            "code": "Q1036"
+}, {
+            "name": "United Arab Emirates",
+            "code": "Q878"
+}, {
+            "name": "United Kingdom",
+            "code": "Q145"
+}, {
+            "name": "United States",
+            "code": "Q30"
+}, {
+            "name": "Uruguay",
+            "code": "Q77"
+}, {
+            "name": "Uzbekistan",
+            "code": "Q265"
+}, {
+            "name": "Vanuatu",
+            "code": "Q686"
+}, {
+            "name": "Venezuela",
+            "code": "Q717"
+}, {
+            "name": "Vietnam",
+            "code": "Q881"
+}, {
+            "name": "Yemen",
+            "code": "Q805"
+}, {
+            "name": "Zambia",
+            "code": "Q953"
+}, {
+            "name": "Zimbabwe",
+            "code": "Q954"
+}]
+}

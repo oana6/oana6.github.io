@@ -1,0 +1,10 @@
+#mapid {}
+
+.my_polyline {
+
+    fill: none;
+    stroke-dasharray: 10,
+        10;
+    stroke-width: 1;
+
+}
