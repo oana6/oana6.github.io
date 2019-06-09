@@ -4,6 +4,7 @@ function gatherValues() {
     var sparql_orientation, sparql_ethnic, sparql_religion;
     var year = slider.noUiSlider.get();
     var profession = document.getElementById("profession");
+    console.log(profession + "!!!");
     var professionVal = profession.options[profession.selectedIndex].value;
     var professionalChecked = document.getElementById("IsAssociation").checked;
     var gender = document.querySelector('input[name="gender"]:checked').value;
