@@ -103,11 +103,25 @@ function fetchLOD(sparql_date, sparql_extra, sparql_gender, sparql_birth, birthC
                     '<br/>Place of Birth: ' + results[i].cityBLabel.value + ", " + BC + '<br/>Place of Death: ' + results[i].cityDLabel.value + ", " + DC +
                     '<br/>Date of Birth: ' + results[i].dateBLabel.value +
                     '<br/>Date of Death: ' + results[i].dateDLabel.value;
+                // console.log(results[i].person.value + " " + results[i].coords_valueB.value + " " + results[i].coords_valueD.value);
 
                 var coordsB = results[i].coords_valueB.value.replace('Point(', '').replace(')', '').split(" ");
                 var coordsD = results[i].coords_valueD.value.replace('Point(', '').replace(')', '').split(" ");
+
+                if (!coordsD[1] || !coordsD[0]) {
+                    console.log("da");
+                    coordsD[1] = coordsB[1];
+                    coordsD[0] = coordsB[0];
+                }
+
+                if (!coordsB[1] || !coordsB[0]) {
+                    console.log("da");
+                    coordsB[1] = coordsD[1];
+                    coordsB[0] = coordsD[0];
+                }
+
                 var mB = L.circle([coordsB[1], coordsB[0]], {
-                        radius: 1000,
+                        radius: 10,
                         weight: 1,
 
                         fillOpacity: 1,
@@ -115,7 +129,7 @@ function fetchLOD(sparql_date, sparql_extra, sparql_gender, sparql_birth, birthC
                     })
                     .bindPopup(popup);
                 var mD = L.circle([coordsD[1], coordsD[0]], {
-                        radius: 100,
+                        radius: 10,
                         color: deathColor
                     })
                     .bindPopup(popup);

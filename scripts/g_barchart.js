@@ -6,11 +6,11 @@ function createBar(year1, year2, professionVal, gender, birthVal, sparql_birth, 
         sparql_gender = gender + ';\n';
     }
     var endpoint = "https://query.wikidata.org/sparql";
-
-    if (year2 >= 2000) {
-        year2 = 1999;
-    }
-
+    /*
+        if (year2 >= 2000) {
+            year2 = 1999;
+        }
+    */
     var sparql =
         'PREFIX wikibase: <http://wikiba.se/ontology#>\n' +
         'PREFIX : <http://www.wikidata.org/entity/>\n' +
